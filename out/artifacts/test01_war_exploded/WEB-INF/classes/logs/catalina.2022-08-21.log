@@ -1,0 +1,53 @@
+21-Aug-2022 18:47:13.037 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.65
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Jul 14 2022 12:28:53 UTC
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.65.0
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jre1.8.0_301
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_301-b09
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     C:\Program Files (x86)\config environment\apache-tomcat-9.0.65
+21-Aug-2022 18:47:13.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     C:\Program Files (x86)\config environment\apache-tomcat-9.0.65
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=C:\Program Files (x86)\config environment\apache-tomcat-9.0.65
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=C:\Program Files (x86)\config environment\apache-tomcat-9.0.65
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\endorsed
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\temp
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\conf\logging.properties
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       exit
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       abort
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Xms128m
+21-Aug-2022 18:47:13.084 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Xmx256m
+21-Aug-2022 18:47:13.100 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.35]。
+21-Aug-2022 18:47:13.100 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+21-Aug-2022 18:47:13.100 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+21-Aug-2022 18:47:13.100 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1q  5 Jul 2022]
+21-Aug-2022 18:47:14.053 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+21-Aug-2022 18:47:14.085 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1274]毫秒内初始化
+21-Aug-2022 18:47:14.131 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+21-Aug-2022 18:47:14.131 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.65]
+21-Aug-2022 18:47:14.131 严重 [main] org.apache.catalina.startup.HostConfig.beforeStart 无法为部署创建目录：[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\conf\Catalina\localhost]
+21-Aug-2022 18:47:14.131 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\docs]
+21-Aug-2022 18:47:14.178 警告 [main] org.apache.catalina.core.StandardContext.postWorkDirectory 无法为上下文[/docs]创建工作目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\docs]
+21-Aug-2022 18:47:14.491 警告 [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[125]毫秒。
+21-Aug-2022 18:47:14.506 严重 [main] org.apache.jasper.EmbeddedServletOptions.<init> 你指定的 scratchDir：[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\docs] 不可用。
+21-Aug-2022 18:47:14.522 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\docs]的部署已在[391]毫秒内完成
+21-Aug-2022 18:47:14.522 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\examples]
+21-Aug-2022 18:47:14.522 警告 [main] org.apache.catalina.core.StandardContext.postWorkDirectory 无法为上下文[/examples]创建工作目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\examples]
+21-Aug-2022 18:47:15.547 严重 [main] org.apache.jasper.EmbeddedServletOptions.<init> 你指定的 scratchDir：[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\examples] 不可用。
+21-Aug-2022 18:47:15.563 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\examples]的部署已在[1,041]毫秒内完成
+21-Aug-2022 18:47:15.563 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\host-manager]
+21-Aug-2022 18:47:15.563 警告 [main] org.apache.catalina.core.StandardContext.postWorkDirectory 无法为上下文[/host-manager]创建工作目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\host-manager]
+21-Aug-2022 18:47:15.594 严重 [main] org.apache.jasper.EmbeddedServletOptions.<init> 你指定的 scratchDir：[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\host-manager] 不可用。
+21-Aug-2022 18:47:15.594 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\host-manager]的部署已在[31]毫秒内完成
+21-Aug-2022 18:47:15.594 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\manager]
+21-Aug-2022 18:47:15.594 警告 [main] org.apache.catalina.core.StandardContext.postWorkDirectory 无法为上下文[/manager]创建工作目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\manager]
+21-Aug-2022 18:47:15.656 严重 [main] org.apache.jasper.EmbeddedServletOptions.<init> 你指定的 scratchDir：[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\manager] 不可用。
+21-Aug-2022 18:47:15.658 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\manager]的部署已在[64]毫秒内完成
+21-Aug-2022 18:47:15.659 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\ROOT]
+21-Aug-2022 18:47:15.662 警告 [main] org.apache.catalina.core.StandardContext.postWorkDirectory 无法为上下文[]创建工作目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\ROOT]
+21-Aug-2022 18:47:15.693 严重 [main] org.apache.jasper.EmbeddedServletOptions.<init> 你指定的 scratchDir：[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\work\Catalina\localhost\ROOT] 不可用。
+21-Aug-2022 18:47:15.694 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[C:\Program Files (x86)\config environment\apache-tomcat-9.0.65\webapps\ROOT]的部署已在[35]毫秒内完成
+21-Aug-2022 18:47:15.698 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+21-Aug-2022 18:47:15.722 信息 [main] org.apache.catalina.startup.Catalina.start [1635]毫秒后服务器启动

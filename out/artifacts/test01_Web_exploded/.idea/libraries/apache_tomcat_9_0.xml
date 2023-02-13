@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="apache-tomcat-9.0">
+    <CLASSES>
+      <root url="file://C:/Program Files (x86)/config environment/apache-tomcat-9.0.65" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://C:/Program Files (x86)/config environment/apache-tomcat-9.0.65/webapps/docs/appdev/sample/src" />
+      <root url="file://C:/Program Files (x86)/config environment/apache-tomcat-9.0.65/webapps/examples/WEB-INF/classes" />
+    </SOURCES>
+  </library>
+</component>
